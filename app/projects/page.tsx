@@ -78,7 +78,7 @@ export default function ProjectsPage() {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white">
             <h1 className="text-5xl font-bold mb-6">Our Projects</h1>
-            <p className="text-xl max-w-3xl mx-auto">
+            <p className="text-white text-xl max-w-3xl mx-auto">
               Explore our portfolio of exceptional projects that showcase our expertise in construction and design.
             </p>
           </div>

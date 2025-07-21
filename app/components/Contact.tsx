@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa';
 import Button from './Button';
 
 const Contact = () => {
@@ -44,7 +44,7 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="flex items-start gap-4">
               <div className="bg-secondary/10 p-4 rounded-full">
-                <FaPhone className="text-secondary text-xl" />
+                <FaPhoneAlt className="text-secondary text-xl" />
               </div>
               <div>
                 <h3 className="bold-20 mb-2">Phone</h3>

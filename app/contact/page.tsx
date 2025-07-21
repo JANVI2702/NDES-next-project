@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
     return (
@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center text-white">
                         <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
-                        <p className="text-xl max-w-3xl mx-auto">
+                        <p className="text-white text-xl max-w-3xl mx-auto">
                             Get in touch with us for any inquiries about our services or projects.
                         </p>
                     </div>
@@ -94,7 +94,7 @@ const Contact = () => {
                             <div className="space-y-6">
                                 <div className="flex items-start gap-4">
                                     <div className="bg-secondary/10 p-3 rounded-full">
-                                        <FaPhone className="text-secondary text-xl" />
+                                        <FaPhoneAlt className="text-secondary text-xl" />
                                     </div>
                                     <div>
                                         <h4 className="text-lg font-semibold text-gray-900">Phone</h4>

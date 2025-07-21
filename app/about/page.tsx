@@ -16,7 +16,7 @@ const About = () => {
 
     return (
         <main className="min-h-screen bg-white">
-            {/* Hero Section with Background */}
+          
             <div className="relative h-[400px] w-full mt-32">
                 <Image
                     src="/h1-slider-3.jpg"
@@ -29,7 +29,7 @@ const About = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center text-white">
                         <h1 className="text-5xl font-bold mb-6">About Us</h1>
-                        <p className="text-xl max-w-3xl mx-auto">
+                        <p className="text-xl max-w-3xl mx-auto text-white">
                             Building Dreams Into Reality with Excellence and Innovation
                         </p>
                     </div>
@@ -49,7 +49,7 @@ const About = () => {
                         <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
                         <div className="absolute bottom-8 left-8 text-white">
                             <h3 className="text-3xl font-bold mb-4">25+ Years of Excellence</h3>
-                            <p className="text-lg">In Construction & Design</p>
+                            <p className="text-white text-lg">In Construction & Design</p>
                         </div>
                     </div>
 

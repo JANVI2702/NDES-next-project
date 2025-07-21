@@ -31,9 +31,9 @@ const About = () => {
                             priority
                         />
                         <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
-                        <div className="absolute bottom-8 left-8 text-white">
+                        <div className="absolute bottom-8 left-8 ">
                             <h3 className="bold-32 mb-4">25+ Years of Excellence</h3>
-                            <p className="regular-18 text-white">In Construction & Design</p>
+                            <p className="regular-18 text-yellow-50">In Construction & Design</p>
                         </div>
                     </div>
 

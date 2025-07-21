@@ -65,7 +65,7 @@ export default function ServicesPage() {
                 <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center text-white">
                         <h1 className="text-5xl font-bold mb-6">Our Services</h1>
-                        <p className="text-xl max-w-3xl mx-auto">
+                        <p className="text-white text-xl max-w-3xl mx-auto">
                             Comprehensive construction and design solutions tailored to your needs
                         </p>
                     </div>
